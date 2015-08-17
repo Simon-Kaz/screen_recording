@@ -106,12 +106,12 @@ NSDictionary* findWithRetry(NSString* ownerName) {
 
 // Locate iOS Window and return found, pid, bounds, and displayID.
 NSDictionary* findiOSWindowBoundsAndPid() {
-    return findWithRetry(@"iOS Simulator");
+    return findWithRetry(@"Reflector");
 }
 
 // Locate Android Window and return found, pid, bounds, and displayID.
 NSDictionary* findAndroidWindowBoundsAndPid() {
-    return findWithRetry(@"emulator64-x86");
+    return findWithRetry(@"AndroidScreenMonitor");
 }
 
 // Deletes the file. Errors if the file is a directory or deletion fails.

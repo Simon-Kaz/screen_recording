@@ -1,11 +1,15 @@
-Note: This project is no longer maintained. Checkout [androidtool-mac](https://github.com/mortenjust/androidtool-mac) instead.
+Forked screen_recording to adjust and maintain it myself.
+
+Changes:
+- replaced simulator with recording for real devices - I'm using Reflector for iOS and Android Screen Monitor.
 
 --
 
 screen_recording
 ================
 
-Activate and record the iOS Simulator or Android emulator to a .mov.
+
+Activate and record the iOS Reflector Window or Android Screen Monitor to a .mov.
 
 ```
 $ ./screen-recording ios /tmp/video.mov
